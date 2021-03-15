@@ -79,46 +79,33 @@
 					</div>
 					<div id="content">
 						<div id="box1">
-							<h2>
-								Welcome to Eponymous
-							</h2>
-							<img class="left" src="images/pic2.jpg" width="170" height="140" alt="" />
-							<p>
-								This is <strong>Eponymous</strong>, a two column CSS template by
-								<a href="http://templated.co" rel="nofollow">TEMPLATED</a> with photos from 
-								<a href="http://www.pdphoto.org/">PDPhoto</a>. It's released (for free) under the
-								<a href="http://templated.co/license/">Creative Commons Attribution license</a>,
-								so feel free to use it for any personal or commercial work (just give us credit for it).
-								Hit up our <a href="http://templated.co">website</a> for more awesomely
-								cool free templates, and follow us on <a href="http://twitter.com/templatedco">Twitter</a>
-								(<a href="http://twitter.com/templatedco">@templatedco</a>) for updates, announcements, and other
-								interesting ramblings.
-							</p>
-						</div>
-						<div id="box2">
-							<h3>
-								Fringilla nisi parturient nullam
-							</h3>
-							<p>
-								Elementum sodales est varius magna leo sociis erat. Nascetur pretium non ultricies gravida. Condimentum 
-								at nascetur tempus. Porttitor viverra ipsum accumsan neque aliquet. Ultrices vestibulum tempor quisque 
-								eget sem eget. Ornare malesuada tempus dolor dolor magna consectetur. Nisl dui non curabitur laoreet tortor.
-							</p>
-
-
-							<p>
-								Elementum sodales est varius magna leo sociis erat. Nascetur pretium non ultricies gravida. Condimentum 
-								at nascetur tempus. Porttitor viverra ipsum accumsan neque aliquet. Ultrices vestibulum tempor quisque 
-								eget sem eget. Ornare malesuada tempus dolor dolor magna consectetur. Nisl dui non curabitur laoreet tortor.
-							</p>
-
-							<img id="mainimage" src="./images/Antonia.jpg" title="Hallo Berta">
-
-							<p>
-								Elementum sodales est varius magna leo sociis erat. Nascetur pretium non ultricies gravida. Condimentum 
-								at nascetur tempus. Porttitor viverra ipsum accumsan neque aliquet. Ultrices vestibulum tempor quisque 
-								eget sem eget. Ornare malesuada 333 tempus dolor dolor magna consectetur. Nisl dui non curabitur laoreet tortor.
-							</p>
+							<!-- The grid: four columns -->
+							<div class="row">
+								<div class="column">
+								<img src="./images/Antonia.jpg" alt="Nature" onclick="myFunction(this);">
+								</div>
+								<div class="column">
+								<img src="./images/Antonia.jpg" alt="Snow" onclick="myFunction(this);">
+								</div>
+								<div class="column">
+								<img src="./images/Antonia.jpg" alt="Mountains" onclick="myFunction(this);">
+								</div>
+								<div class="column">
+								<img src="./images/Antonia.jpg" alt="Lights" onclick="myFunction(this);">
+								</div>
+							</div>
+							
+							<!-- The expanding image container -->
+							<div class="container">
+								<!-- Close the image -->
+								<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+							
+								<!-- Expanded image -->
+								<img id="expandedImg" style="width:100%">
+							
+								<!-- Image text -->
+								<div id="imgtext"></div>
+							</div>
 							
 						</div>
 						<br class="clear" />
