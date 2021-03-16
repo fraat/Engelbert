@@ -305,15 +305,15 @@ ul {
 /* The grid: Four equal columns that floats next to each other */
   .column {
 	float:left;
-	width: 100%;
-	padding: 10px;
+	width: 25%;
+	
   }
   
   /* Style the images inside the grid */
   .column img {
 	opacity: 0.8;
 	cursor: pointer;
-	width: 25%; 
+	width: 100%; 
   }
   
   .column img:hover {
