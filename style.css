@@ -222,6 +222,11 @@ ul {
 	max-width: 100%;
 }
 
+#main ul li.active {
+	color: #3CA9CD;
+	font-style: italic;
+}
+
 #nav {
 	position: absolute;
 	right: 60px;
