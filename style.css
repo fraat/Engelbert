@@ -196,6 +196,7 @@ ul {
 	color: #262626;
 }
 
+
 #main strong {
 	color: #404040;
 }
@@ -279,9 +280,9 @@ ul {
 }
 
 #sidebar {
-	width: 180px;
+	width: 200px;
 	float: left;
-	padding: 30px;
+	padding: 5px;
 	color: #959797;
 }
 
