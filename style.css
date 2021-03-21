@@ -36,10 +36,21 @@ br.clear {
 	clear: both;
 }
 
-h2,h3,h4 {
+h2 {
+	margin-bottom: 0.5em;
+	font-family: Arvo, serif;
+	color: #ffffff;
+}
+
+h3,h4 {
 	margin-bottom: 1em;
 	font-family: Arvo, serif;
 	color: #ffffff;
+}
+sub {
+	font-family: Arvo, serif;
+	color: grey;
+	font-size: 10pt;
 }
 
 img.left {
