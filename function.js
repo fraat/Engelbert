@@ -11,7 +11,7 @@ function myFunction(imgs) {
     expandImg.parentElement.style.display = "block";
   }
 
-  randomNumber = Math.floor(Math.random()*8+1);
+randomNumber = Math.floor(Math.random()*8+1);
 
 window.onload = function() {
 	if (randomNumber == 1) {
