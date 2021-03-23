@@ -93,7 +93,7 @@ window.onload = function() {
 		document.getElementById("fact4").style.display = "none";
 		document.getElementById("fact5").style.display = "none";
 		document.getElementById("fact6").style.display = "none";
-		document.getElementById("fact6").style.display = "none";
+		document.getElementById("fact7").style.display = "none";
 		document.getElementById("fact8").style.display = "inline";
 		
 	}
