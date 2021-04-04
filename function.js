@@ -19,7 +19,7 @@ function checkPswd() {
 		 window.location="./index.html";
 	}
 	else{
-		alert("Passwords do not match.");
+		alert("Passwort nicht korrekt.");
 	}
 }
 
