@@ -11,6 +11,20 @@ function myFunction(imgs) {
     expandImg.parentElement.style.display = "block";
   }
 
+
+function checkPswd() {
+	var confirmPassword = "admin";
+	var password = document.getElementById("pswd").value;
+	if (password == confirmPassword) {
+		 window.location="./index.html";
+	}
+	else{
+		alert("Passwords do not match.");
+	}
+}
+
+
+
 randomNumber = Math.floor(Math.random()*8+1);
 
 window.onload = function() {
