@@ -13,7 +13,7 @@ function myFunction(imgs) {
 
 
 function checkPswd() {
-	var confirmPassword = "admin";
+	var confirmPassword = "Duisburg";
 	var password = document.getElementById("pswd").value;
 	if (password == confirmPassword) {
 		 window.location="./index.html";
