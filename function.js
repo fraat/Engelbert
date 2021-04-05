@@ -138,7 +138,7 @@ window.onload = function() {
 		document.getElementById("fact8").style.display = "none";
 		document.getElementById("fact9").style.display = "inline";
 		document.getElementById("fact10").style.display = "none";
-		
+	}	
 	if (randomNumber == 10) {
 		document.getElementById("fact1").style.display = "none";
 		document.getElementById("fact2").style.display = "none";
@@ -150,4 +150,5 @@ window.onload = function() {
 		document.getElementById("fact8").style.display = "none";
 		document.getElementById("fact9").style.display = "none";
 		document.getElementById("fact10").style.display = "inline";
+	}
 }
