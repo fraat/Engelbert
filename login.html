@@ -5,12 +5,15 @@
     <meta name="description" content="" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Login page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="function.js"></script>
 </head>
 <body>
-    <form>
-        <label for="pswd">Enter your password: </label>
-        <input type="password" id="pswd">
-        <input type="button" value="Bestätigen" onclick="checkPswd();" />
-    </form>
+    <div id="parentlogin">
+        <form id="login">
+            <label for="pswd">Enter your password: </label>
+            <input type="password" id="pswd">
+            <input type="button" value="Bestätigen" onclick="checkPswd();" />
+        </form>
+    </div>
 </body>
