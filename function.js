@@ -37,6 +37,8 @@ window.onload = function() {
 		document.getElementById("fact6").style.display = "none";
 		document.getElementById("fact7").style.display = "none";
 		document.getElementById("fact8").style.display = "none";
+		document.getElementById("fact9").style.display = "none";
+		document.getElementById("fact10").style.display = "none";
 	}
 	if (randomNumber == 2) {
 		document.getElementById("fact1").style.display = "none";
@@ -47,6 +49,8 @@ window.onload = function() {
 		document.getElementById("fact6").style.display = "none";
 		document.getElementById("fact7").style.display = "none";
 		document.getElementById("fact8").style.display = "none";
+		document.getElementById("fact9").style.display = "none";
+		document.getElementById("fact10").style.display = "none";
 	}
 	if (randomNumber == 3) {
 		document.getElementById("fact1").style.display = "none";
@@ -57,6 +61,8 @@ window.onload = function() {
 		document.getElementById("fact6").style.display = "none";
 		document.getElementById("fact7").style.display = "none";
 		document.getElementById("fact8").style.display = "none";
+		document.getElementById("fact9").style.display = "none";
+		document.getElementById("fact10").style.display = "none";
 	}
 	if (randomNumber == 4) {
 		document.getElementById("fact1").style.display = "none";
@@ -67,6 +73,8 @@ window.onload = function() {
 		document.getElementById("fact6").style.display = "none";
 		document.getElementById("fact7").style.display = "none";
 		document.getElementById("fact8").style.display = "none";
+		document.getElementById("fact9").style.display = "none";
+		document.getElementById("fact10").style.display = "none";
 	}
 	if (randomNumber == 5) {
 		document.getElementById("fact1").style.display = "none";
@@ -77,6 +85,8 @@ window.onload = function() {
 		document.getElementById("fact6").style.display = "none";
 		document.getElementById("fact7").style.display = "none";
 		document.getElementById("fact8").style.display = "none";
+		document.getElementById("fact9").style.display = "none";
+		document.getElementById("fact10").style.display = "none";
 		
 	}
 	if (randomNumber == 6) {
@@ -88,6 +98,8 @@ window.onload = function() {
 		document.getElementById("fact6").style.display = "inline";
 		document.getElementById("fact7").style.display = "none";
 		document.getElementById("fact8").style.display = "none";
+		document.getElementById("fact9").style.display = "none";
+		document.getElementById("fact10").style.display = "none";
 		
 	}
 	if (randomNumber == 7) {
@@ -99,6 +111,8 @@ window.onload = function() {
 		document.getElementById("fact6").style.display = "none";
 		document.getElementById("fact7").style.display = "inline";
 		document.getElementById("fact8").style.display = "none";
+		document.getElementById("fact9").style.display = "none";
+		document.getElementById("fact10").style.display = "none";
 	}
 	if (randomNumber == 8) {
 		document.getElementById("fact1").style.display = "none";
@@ -109,6 +123,31 @@ window.onload = function() {
 		document.getElementById("fact6").style.display = "none";
 		document.getElementById("fact7").style.display = "none";
 		document.getElementById("fact8").style.display = "inline";
+		document.getElementById("fact9").style.display = "none";
+		document.getElementById("fact10").style.display = "none";
 		
 	}
+	if (randomNumber == 9) {
+		document.getElementById("fact1").style.display = "none";
+		document.getElementById("fact2").style.display = "none";
+		document.getElementById("fact3").style.display = "none";
+		document.getElementById("fact4").style.display = "none";
+		document.getElementById("fact5").style.display = "none";
+		document.getElementById("fact6").style.display = "none";
+		document.getElementById("fact7").style.display = "none";
+		document.getElementById("fact8").style.display = "none";
+		document.getElementById("fact9").style.display = "inline";
+		document.getElementById("fact10").style.display = "none";
+		
+	if (randomNumber == 10) {
+		document.getElementById("fact1").style.display = "none";
+		document.getElementById("fact2").style.display = "none";
+		document.getElementById("fact3").style.display = "none";
+		document.getElementById("fact4").style.display = "none";
+		document.getElementById("fact5").style.display = "none";
+		document.getElementById("fact6").style.display = "none";
+		document.getElementById("fact7").style.display = "none";
+		document.getElementById("fact8").style.display = "none";
+		document.getElementById("fact9").style.display = "none";
+		document.getElementById("fact10").style.display = "inline";
 }
