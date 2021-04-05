@@ -25,7 +25,7 @@ function checkPswd() {
 
 
 
-randomNumber = Math.floor(Math.random()*8+1);
+randomNumber = Math.floor(Math.random()*10+1);
 
 window.onload = function() {
 	if (randomNumber == 1) {
