@@ -353,6 +353,10 @@ ul {
 	width: 100%; 
 	border: #ffffff solid;
   }
+
+  .row img {
+	height: 100%;  
+  }
   
   .column img:hover {
 	opacity: 1;
